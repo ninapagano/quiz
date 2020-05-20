@@ -351,18 +351,18 @@ textarea {
     Section 1
 ============= */
 #section-1 {
-  background-image: url("../img/section-1/hero.jpg");
+  background-image: url("../img/section1/hero.jpg");
   background-position: center;
   background-size: cover;
   height: 360px; }
   @media (max-width: 2000px) {
     #section-1 h1 {
-      color: #008080;
-      font-size: 60px;
+      color: #000;
+      font-size: 80px;
       text-align: center; }
     #section-1 h2 {
-      color: #008B8B;
-      font-size: 30px;
+      color: #000;
+      font-size: 80px;
       text-align: center; } }
   @media (min-width: 768px) {
     #section-1 {
@@ -371,8 +371,7 @@ textarea {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". section-2 .";
-  padding: 10px 0;
-  background-color: lightgrey; }
+  padding: 60px 0; }
   @media (min-width: 992px) {
     #section-2 {
       padding: 100px 0; } }
@@ -382,18 +381,18 @@ textarea {
   #section-2 > div {
     grid-area: section-2; }
     #section-2 > div #section-2-first {
-      text-align: center;
-      font-size: 30px; }
+      text-align: center; }
       #section-2 > div #section-2-first > div h3 {
         color: #000;
+        font-size: 3rem;
         font-weight: 700;
         line-height: 2.875rem;
         margin: 40px 0 30px; }
     #section-2 > div #section-2-middle {
-      text-align: center;
-      font-size: 25px; }
+      text-align: center; }
       #section-2 > div #section-2-middle > div p {
         color: #000;
+        font-size: 3rem;
         font-weight: 200;
         line-height: 2.875rem;
         margin: 40px 0 30px; }
@@ -401,56 +400,3 @@ textarea {
       text-align: center; }
       #section-2 > div #section-2-last > div img {
         margin: 40px 0 30px; }
-
-#section-3 {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-3 .";
-  padding: 10px 0; }
-  @media (min-width: 992px) {
-    #section-3 {
-      padding: 0; } }
-  @media (min-width: 1200px) {
-    #section-3 {
-      grid-template-columns: auto 1200px auto; } }
-  #section-3 > div {
-    grid-area: section-2; }
-    #section-3 > div #section-3-first {
-      text-align: center; }
-      #section-3 > div #section-3-first > div img {
-        margin: 10px 0 10px; }
-    #section-3 > div #section-3-middle {
-      text-align: center;
-      font-size: 25px;
-      background-color: lightgrey; }
-      #section-3 > div #section-3-middle > div h3 {
-        color: #000;
-        font-weight: 700;
-        line-height: 2.875rem;
-        margin: 0; }
-    #section-3 > div #section-3-last {
-      text-align: center;
-      background-color: lightgrey; }
-      #section-3 > div #section-3-last > div p {
-        color: #000;
-        font-weight: 200;
-        line-height: 2.875rem;
-        margin: 0; }
-
-#section-1 {
-  background-image: url("../img/section-1/hero.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 360px; }
-  @media (max-width: 2000px) {
-    #section-1 h1 {
-      color: #008080;
-      font-size: 60px;
-      text-align: center; }
-    #section-1 h2 {
-      color: #008B8B;
-      font-size: 30px;
-      text-align: center; } }
-  @media (min-width: 768px) {
-    #section-1 {
-      height: 683px; } }

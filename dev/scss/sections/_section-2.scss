@@ -1,0 +1,55 @@
+#section-2{
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". section-2 .";
+    padding: 10px 0;
+    background-color: lightgrey;
+
+    @include lg{
+        padding: 100px 0;
+    }
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div{
+        grid-area: section-2;
+
+        #section-2-first {
+            text-align: center;
+            font-size: 30px;
+
+           >div{
+               h3 {
+                   color: $black ;
+                   font-weight: 700;
+                   line-height: rem-calc(46);
+                   margin: 40px 0 30px;
+               }
+           }
+       }
+        #section-2-middle {
+            text-align: center;
+            font-size: 25px;
+
+            >div{
+                p {
+                    color: $black ;
+                    font-weight: 200;
+                    line-height: rem-calc(46);
+                    margin: 40px 0 30px;
+                }
+            }
+        }
+        #section-2-last {
+            text-align: center;
+
+            >div{
+                img {
+                    margin: 40px 0 30px; 
+                }
+            }
+        }
+    }
+}
